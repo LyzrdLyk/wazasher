@@ -1,7 +1,5 @@
-use std::fs::{self, File};
 
 use rocket::local::blocking::Client;
-use rocket::fs::relative;
 
 #[test]
 fn hello_world() {
