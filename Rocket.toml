@@ -1,0 +1,7 @@
+[default.tls]
+certs = "private/selfsigned.crt"
+key = "private/selfsigned.key"
+
+[ed25519.tls]
+certs = "private/ed25519_cert.pem"
+key = "private/ed25519_key.pem"
